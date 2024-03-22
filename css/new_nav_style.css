@@ -162,7 +162,7 @@ header {
     opacity: 1;
     width: 67%;
     height: 100%;
-    transform: translateX(0);
+    transform: none;
     transition: transform 0.25s linear;
 }
 .burger-menu a:nth-child(2){
