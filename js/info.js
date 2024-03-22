@@ -34,3 +34,13 @@ Brushes.forEach(el => {
     }
 }
 )
+background.onclick=()=> {
+    if(BrushWindow.classList.contains("viswind")===true) {
+        BrushWindow.classList.remove("viswind");
+        background.classList.remove("visback");
+    }
+    else {
+        wind.classList.remove("viswind");
+        background.classList.remove("visback");
+    }
+}
