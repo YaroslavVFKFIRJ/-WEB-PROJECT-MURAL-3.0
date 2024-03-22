@@ -1,0 +1,103 @@
+@media screen and (max-width: 700px) {
+    html, body{
+        height: 100%;
+    }
+    body{
+      overflow:hidden;
+      margin: 0;
+      padding: 0;
+  }
+  .burger-but {
+    display: flex;
+    width: 6.6vw;
+    height: 6.6vw;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 1.4vw;
+    background-color: var(--main-color2);
+    padding: 1vw;
+    border-radius: 6px 0 0 6px;
+    transition: all 0.2s linear;
+}
+.burger-but:hover {
+    /* временно */
+    background-color: #3d1f1f;
+    transition: all 0.2s linear;
+}
+.burger-but:active {
+    /* временно */
+    background-color: #261414;
+    transition: all 0.2s linear;
+}
+.burger-but div {
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-color1);
+    border-radius: 4px;
+}
+  header {
+    width: 100%;
+  }
+    .block_header h1 {
+        font-size: 8vw;
+        line-height: 8vw;
+    }
+    .logo {
+        width: 14vw;
+        height: 14vw;
+    }
+    #tooltip {
+        display: none;
+    }
+    #tooltip.appear {
+        display: none;
+    }
+  .main{
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      min-height: 70%;
+      height: auto;
+  }
+  main{
+      flex: none;
+      width: 100%;
+      height: 48.3%;
+      order: 0;
+  }
+  main svg{
+      filter: none;
+  }
+  main svg{
+    width: 300%;
+  }
+  .nav1{
+      order: 1;
+  }
+  .nav2{
+      order: 1;
+  }
+  .nav1, .nav2{
+      width: 50%;
+      height: 40%;
+      margin-top: 0;
+      gap: 5px;
+  }
+  .nav1 a,
+.nav2 a {
+    width: 80%;
+    height: 5vh;
+    font-size: 1.5vh;
+}
+.nav1 a:hover{
+    width: 90%;
+} 
+.nav2 a:hover{
+    width: 90%;
+}
+footer{
+    width: 100%;
+    height: 12%;
+}
+}

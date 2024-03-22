@@ -1,0 +1,49 @@
+.f1 {
+    background: url(../img/Backgrounds/Others/F1_2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f2 {
+    background: url(../img/Backgrounds/Others/F2_2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f3 {
+    background: url(../img/Backgrounds/oTHERS/F3_2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f4 {
+    background: url(../img/Backgrounds/Others/F4_3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f1 div {
+    background: url(../img/LIFE\ BAG1.jpg) center top no-repeat;
+    background-size: cover;
+}
+.f2 div {
+    background: url(../img/GOOD\ MORNING1.png) center center no-repeat;
+    background-size: cover;
+}
+.f3 div {
+    background: url(../img/WE1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f4 div {
+    background: url(../img/MCHS1.jpg) center center no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 700px) {
+    .f1 div {
+        background-position: center bottom;
+    }
+    .f3 div {
+        background-position: 50% 29.8%;
+    }
+    .f4 div {
+        background-position: 50% 30%;
+    }
+    .f4 section h3 {
+        font-size: 4vw;
+    }
+    .f4 {
+        background-position: center 100px;
+    }
+}

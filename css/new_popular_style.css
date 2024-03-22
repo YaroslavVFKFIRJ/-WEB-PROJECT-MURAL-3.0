@@ -1,0 +1,43 @@
+.f1 {
+    background: url(../img/Backgrounds/Popular/F1_4.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f2 {
+    background: url(../img/Backgrounds/Popular/F2_5.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f3 {
+    background: url(../img/Backgrounds/Popular/F3_2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f4 {
+    background: url(../img/Backgrounds/Popular/F4_2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f1 div {
+    background: url(../img/ILYA-KOZHAR3.png) center center no-repeat;
+    background-size: cover;
+}
+.f2 div {
+    background: url(../img/SHABUNEVSKI3.jpg) center bottom no-repeat;
+    background-size: cover;
+}
+.f3 div {
+    background: url(../img/MAZUROV2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f4 div {
+    background: url(../img/SKARINA3.jpg) center top no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 700px) {
+    .f1 div {
+        background-position: center top;
+    }
+    .f2 div {
+        background-position: center top;
+    }
+    .f3 div {
+        background-position: center top;
+    }
+}

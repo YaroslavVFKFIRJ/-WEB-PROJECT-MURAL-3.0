@@ -1,0 +1,63 @@
+@media screen and (max-width: 700px) {
+   body{
+        height: 100%;
+    }
+    .block_header h1 {
+        font-size: 8vw;
+    }
+    .up{
+        width: 100%;
+        height: 60%;
+        transition: height 0.4s linear;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .down{
+        width: 100%;
+        height: 20%;
+        background-position: top center;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .down h1{
+        text-align: center;
+        width: 100%;
+        padding:  10px 10px 10px 10px;
+        border-radius: 5px 5px 0 0;
+        transform: rotate(0deg);
+    }
+    .up f1 {}
+    .image.hr1,
+    .image.hr2,
+    .image.hr3,
+    .image.hr4,
+    .image.hr5,
+    .image.hr6 {
+        display: none;
+    }
+    .crossdate0 {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 3%;
+        right: 1vw;
+        cursor: pointer;
+    }
+    .crossdate0:hover {
+        transform: none;
+    }
+    .underwind h1 {
+        font-size: 30px;
+    }
+    .underwind p {
+        font-size: 18px;
+    }
+    .medal{
+        width: 30%;
+
+    }
+    .text {
+        width: 100%;
+    }
+}
+

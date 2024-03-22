@@ -1,0 +1,69 @@
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+.main_carousel {
+    display: flex;
+    width: 340px;
+    height: 480px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    position: relative;
+}
+.doc {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.doc .carousel-inner, .doc .carousel-inner .carousel-item {
+    height: 100%;
+}
+.doc .carousel-inner .carousel-item {
+    position: relative;
+    height: 100%;
+}
+.doc .carousel-inner .carousel-item img {
+    margin: 0 auto;
+}
+.doc:hover .carousel-control-next{
+    background-color: rgba(104, 98, 98, 0.405);
+    transition: all .1s linear;
+}
+.doc:hover .carousel-control-prev{
+    background-color: rgba(104, 98, 98, 0.405);
+    transition: all .1s linear;
+}
+.carousel_h5 {
+    background-color: rgba(128, 128, 128, 0.582);
+}
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: rgba(104, 98, 98, 0.537);
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #6d6868;
+}
+.carousel-indicators .active {
+    background-color: #333232;
+}
+#carouselMain .carousel-control-next, #carouselMain .carousel-control-prev {
+    height: 10%;
+    top: 80%;
+}
+@media screen and (max-width: 700px) {
+    .main_carousel {
+        width: 270px;
+        height: 364px;
+    }
+    .doc_item {
+        height: 300px;
+    }
+    #carouselMain .carousel-control-next, #carouselMain .carousel-control-prev {
+        height: 5%;
+        top: 90%;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
