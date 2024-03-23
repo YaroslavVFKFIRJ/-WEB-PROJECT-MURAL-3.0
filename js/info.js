@@ -8,6 +8,10 @@ let Brushes = document.querySelectorAll(".brush");
 let BrushP = document.querySelector(".brush_p");
 let BrushDate = document.querySelector(".brush_date");
 let BrushPlace = document.querySelector(".brush_place");
+// setTimeout(() => {
+//     document.querySelector("#carouselMain").setAttribute("data-bs-ride", "");
+// }, 1000);
+// data-bs-touch="true" data-bs-ride="carousel"
 section.onclick = () => {
     wind.classList.add('viswind');
     background.classList.add('visback');
