@@ -245,6 +245,12 @@ function Moving(el){
 	ToolTip.style.left = (event.clientX + 10)+'px';
 	ToolTip.style.top = (event.clientY + 15)+'px';
  }
+SvgArr.forEach(el => {
+	el.onclick = ( )=> {
+		console.log("lol");
+		ToolTip.style.display="none";
+	}
+})
 </script>
 </body>
 </html>

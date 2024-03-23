@@ -9,5 +9,7 @@ document.querySelector(".burger-but").onclick=( )=> {
 document.querySelector(".burger-close").onclick=( )=> {
     background.classList.remove("visback");
     document.querySelector(".burger-menu").classList.remove("visback");
-    document.querySelector(".burger-menu").classList.remove("anima");
+    setTimeout(()=> {
+        document.querySelector(".burger-menu").classList.remove("anima");
+    }, 10);
 }
