@@ -212,7 +212,7 @@ span{
     box-sizing: border-box;
     overflow: hidden;
     transition: all 0.2s 0.1s linear;
-    cursor: pointer;
+    /* cursor: pointer; */
     text-decoration: none;
 }
 .but-nav:hover{

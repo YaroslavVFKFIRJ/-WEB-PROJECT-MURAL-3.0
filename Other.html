@@ -24,7 +24,7 @@
         <a class="burger-nav" href="index.html"><img src="img/home.svg"><h2>ГЛАВНАЯ</h2></a>
         <a class="burger-nav" href="Heroes.html"><img src="img/star.png"><h2>МУРАЛЫ ГЕРОЯМ</h2></a>
         <a class="burger-nav" href="Popular.html"><img src="img/mega.png"><h2>МУРАЛЫ ЗНАМЕНИТОСТЯМ</h2></a>
-        <a class="burger-nav visited" href="#"><img src="img/home.png"><h2>ДРУГИЕ МУРАЛЫ</h2></a>
+        <a class="burger-nav visited s" href="#"><img src="img/home.png"><h2>ДРУГИЕ МУРАЛЫ</h2></a>
         <a class="burger-nav" href="ONMAP.html"><img src="img/mapp.png"><h2>МУРАЛЫ НА КАРТЕ</h2></a>
         <h2 class="burger-text">МУРАЛЫ ГОМЕЛЯ, 2024</h2>
       </div>
@@ -32,7 +32,7 @@
         <a class="but-nav" href="index.html"><img src="img/home.svg"><h1>Главная</h1></a>
         <a class="but-nav" href="Heroes.html"><img src="img/star.png"><h1>Героям</h1></a>
         <a class="but-nav" href="Popular.html"><img src="img/mega.png"><h1>Знам.</h1></a>
-        <a class="but-nav visited" href="#"><img src="img/home.png"><h1>Другие</h1></a>
+        <a class="but-nav visited s" href="#"><img src="img/home.png"><h1>Другие</h1></a>
         <a class="but-nav" href="ONMAP.html"><img src="img/mapp.png" id="spec"><h1>На карте</h1></a>
     </div>
     <div class="blur">
@@ -282,6 +282,7 @@
     <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js" ></script>
     <script>
         let x = new bootstrap.Carousel('#carouselMain');
+        document.querySelectorAll(".s").forEach(el => el.removeAttribute("href"));
     </script>
 </body>
 </html>
