@@ -139,7 +139,7 @@ footer {
 footer div {
     color: var(--main-color3);
     font-family: 'Rubik Vinyl', cursive;
-
+    font-size: 1.3vw;
 }
 footer a{
     display: block;

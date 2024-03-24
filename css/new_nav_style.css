@@ -48,6 +48,7 @@ main {
     width: 35%;
     height: 100%;
     background-size: cover;
+    background-color: #a6a6a6;
 }
 section h2 {
     display: block;
