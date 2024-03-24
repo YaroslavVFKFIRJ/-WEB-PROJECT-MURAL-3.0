@@ -39,16 +39,16 @@ Brushes.forEach(el => {
 }
 )
 background.onclick=()=> {
-    console.log(document.querySelector(".burger-menu").classList.contains("anima"));
-    if(document.querySelector(".burger-menu").classList.contains("anima")===false) {
         if(BrushWindow.classList.contains("viswind")===true) {
             BrushWindow.classList.remove("viswind");
             background.classList.remove("visback");
         }
-        else {
+        else if(wind.classList.contains("viswind")===true){
             wind.classList.remove("viswind");
             background.classList.remove("visback");
         }
-    }
-    else background.classList.add("visback");
+        else {
+            wind.classList.remove("viswind");
+            document.querySelector(".burger-menu").classList.remove("visback");
+        }
 }

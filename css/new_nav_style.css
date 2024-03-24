@@ -84,6 +84,7 @@ section a {
     text-decoration: none;
     color: var(--main-color3);
     border-radius: 10px;
+    cursor: pointer;
 }
 .main-prev, .main-next{
     opacity: .8;
@@ -155,31 +156,23 @@ header {
     background-color: var(--main-color3);
 }
 .burger-menu {
-    display: none;
-}
-.burger-menu.anima {
+    transform: translate(100%, 0);
+    transition: all 0.45s ease;
     display: flex;
-}
-.burger-menu {
-    opacity: 0;
     position: absolute;
     flex-direction: column;
     align-items: center;
     width: 67%;
     height: 100%;
     right: 0;
-    transform: translateX(63%);
     background-color: aliceblue;
     transition: transform 0.25s linear;
     z-index: 999;
     gap: 1%;
 }
 .burger-menu.visback {
-    opacity: 1;
-    width: 67%;
-    height: 100%;
-    transform: none;
-    transition: transform 0.25s linear;
+    transform: translate(0, 0);
+    transition: all 0.45s ease;
 }
 .burger-menu a:nth-child(2){
     margin-top: 20%;
