@@ -26,6 +26,8 @@
         display: flex;
         max-width: 692px;
         height: 438px;
+        background: url(../img/infoback1.jpg) center center no-repeat;
+        background-size: cover;
         background-color: var(--main-color3);
         flex-direction: column;
         align-items: center;
@@ -112,7 +114,9 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--main-color1);
+        background: url(../img/6.png) center bottom no-repeat ;
+        background-size: cover;
+        background-color: #F8F5F5;
         margin: 0 auto;
         /* padding-top: 15px; */
         height: 17%;

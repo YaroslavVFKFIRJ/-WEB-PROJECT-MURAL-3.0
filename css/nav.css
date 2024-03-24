@@ -79,6 +79,7 @@ body{
     width: 450px;
     height: 340px;
     background: url("../img/font_art.jpg") center center / cover;
+    background-color: #d0cdd4;
     border-radius: 5px 5px 5px 5px;
     z-index: 2;
     margin: auto;
@@ -100,6 +101,8 @@ body{
     display: flex;
     width: 692px;
     height: 438px;
+    background: url(../img/infoback1.jpg) center center no-repeat;
+    background-size: cover;
     background-color: var(--main-color3);
     flex-direction: column;
     align-items: center;
@@ -268,7 +271,7 @@ header{
     align-items: center;
     background-color: var(--main-color1);
     margin: 0 auto ;
-    height: 140px;
+    height: 17%;
 }
 .block_header{
     width:60%;
@@ -278,6 +281,7 @@ header{
     align-items: center;
     padding-left: 5%;
     margin: 50px 0;
+    z-index: 1;
 }
 .logo{
     position: relative;
@@ -300,6 +304,7 @@ header{
     border-radius: 10px 0 0 10px;
     transition: all 0.2s linear;
     margin-top: 15px;
+    z-index: 1;
 }
 .section:hover{
     width: 120px;
@@ -315,7 +320,7 @@ header{
 }
 main{
     width: 88%;
-    height: 2800px;
+    height: 83%;
     display: flex;
     flex-direction: column;
     justify-content: center;

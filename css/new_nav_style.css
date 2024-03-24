@@ -5,8 +5,21 @@
     display: none;
  } 
 header {
+    position: relative;
     width: 80%;
+    background-size: cover;
+    overflow: hidden;
+    background: url(../img/6.png) center bottom no-repeat ;
+    background-size: cover;
     background-color: #F8F5F5;
+}
+.backhed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: -50%;
+    right: 6%;
 }
 .burger-close img {
     display: none;
@@ -137,6 +150,9 @@ header,main, footer {
 }
 header {
     min-height:15%;
+    background: url(../img/6_formobile.png) center  no-repeat ;
+    background-size: cover;
+    background-color: var(--main-color3);
 }
 .burger-menu {
     display: none;

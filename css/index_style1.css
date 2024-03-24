@@ -114,9 +114,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--main-color1);
+        background: url(../img/6_formobile.png) center  no-repeat ;
+        background-size: cover;
+        background-color: #F8F5F5;
         margin: 0 auto;
-        padding-top: 15px;
         min-height: 15%;
     }
     .slide-in-left {
