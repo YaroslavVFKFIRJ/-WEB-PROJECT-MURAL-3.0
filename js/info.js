@@ -48,7 +48,7 @@ background.onclick=()=> {
             background.classList.remove("visback");
         }
         else {
-            wind.classList.remove("viswind");
             document.querySelector(".burger-menu").classList.remove("visback");
+            background.classList.remove("visback");
         }
 }
