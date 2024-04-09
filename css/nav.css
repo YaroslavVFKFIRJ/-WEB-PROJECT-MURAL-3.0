@@ -10,6 +10,7 @@ html, body{
 }
 body{
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     background-color: var(--main-color0);
@@ -249,6 +250,43 @@ span{
 .but-nav img{
     height: 60%;
     margin-left: 9px;
+}
+.modes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    position: absolute;
+    height: 14%;
+    width: 62px;
+    left: 0;
+    top: 43%;
+    background-color: var(--main-color6);
+    border-radius: 0 20px 20px 0;
+}
+.modes button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #737272;
+    border: solid 1px #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 0.2s 0.1s linear;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+.modes button img {
+    width: 60%;
+    height: 60%;
+}
+.modes button:hover {
+    transition: all 0.2s linear;
+    background-color: #5e5c5c;
 }
 .visited {
     background-color: rgb(142, 163, 163);
