@@ -9,6 +9,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+/* .carousel-inner,.carousel-item {
+    height: 100%;
+} */
+#carouselMain, #carouselMain .carousel-inner, #carouselMain .carousel-inner .carousel-item{
+    height: 100%;
+}
 .box {
     position: relative;
 }
@@ -50,7 +56,7 @@
 }
 #carouselMain .carousel-control-next, #carouselMain .carousel-control-prev {
     height: 10%;
-    top: 80%;
+    top: 90%;
 }
 @media screen and (max-width: 700px) {
     .main_carousel {

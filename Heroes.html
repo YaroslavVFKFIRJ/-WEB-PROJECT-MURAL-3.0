@@ -39,7 +39,7 @@
       <button id="shutter">
         <img src="img/map.svg">
       </button>
-      <button class="scrolling">
+      <button id="scrolling">
         <img src="img/slider-horizontal.svg">
       </button>
     </div>
@@ -1021,7 +1021,80 @@
 </header>
 <main>
   <div id="shutter-main">
-    
+    <div class="g1 up shutter-section">
+      <div class="brush" data-autor="#Артем Сороколетов, Павел Ермоленко и Роман Яшутин." data-date="#Май, 2022 г." data-place="#ул. Советская 97, корп. 2">
+          <img src="img/brush.svg" class="brush_img">
+      </div>
+      <h2>Илья Кожар
+      </h2>
+      <h3>
+          Илья Павлович Кожар - один из видных организаторов партизанского движения  на временно оккупированной территории Беларуси, секретарь Гомельского подпольного областного комитета Коммунистической партии (большевиков) Беларуси
+      </h3>
+      <a class="hr1" href="#" >
+          Подробнее...
+      </a>
+  </div>  
+  <div class="g2 down shutter-section" >
+      <div class="brush" data-autor="#Неизвестно." data-date="#Май, 2022 г." data-place="#ул. Бородина 10А">
+          <img src="img/brush.svg" class="brush_img">
+      </div>
+      <h2>Тимофей Бородин</h2>
+      <h3>
+          Бородин Тимофей Степанович - участник подпольной борьбы на территории Беларуси, руководитель оперативного центра по координации деятельности подпольных групп
+      </h3>
+      <a class="hr2" href="#">
+          Подробнее...
+      </a>
+  </div> 
+  <div class="g3 down shutter-section">
+      <div class="brush" data-autor="#Максим Козлов и Артем Сороколетов." data-date="#Апрель, 2020 г." data-place="#ул. Барыкина 94">
+          <img src="img/brush.svg" class="brush_img">
+      </div>
+      <h2>Емельян Барыкин</h2>
+      <h3>
+          Емельян Игнатьевич Барыкин – один из организаторов и руководителей подполья и партизанского движения на территории Гомельской области, который организовал городской партизанский отряд "Большевик" , Герой Советского Союза
+      </h3>
+      <a class="hr3" href="#">
+          Подробнее...
+      </a>
+  </div> 
+  <div class="g4 down shutter-section">
+      <div class="brush" data-autor="#Максим Козлов и другие люди из студии «Fresh Design»." data-date="#Июнь, 2020 г." data-place="#ул. Ильича 10Б">
+          <img src="img/brush.svg" class="brush_img">
+      </div>
+      <h2>Константин Рокоссовский</h2>
+      <h3>
+          Константин Константинович Рокоссовский - командующий 1-м и 2-м Белорусскими фронтами, являлся Маршалом Советского Союза
+      </h3>
+      <a class="hr4" href="#">
+          Подробнее...
+      </a>
+  </div> 
+  <div class="g5 down shutter-section">
+      <div class="brush" data-autor="#Художественная студия «Фреш»." data-date="#Сентябрь, 2022 г." data-place="#ул. Мазурова 4">
+          <img src="img/brush.svg" class="brush_img">
+      </div>
+      <h2>Кирилл Мазуров</h2>
+      <h3>
+          Мазуров Кирилл Трофимович - один из организаторов и руководителей партизанского подполья и партизанского движения на Беларуси в Великую Отечественную войну, советский партийный и государственный деятель
+      </h3>
+      <a class="hr5" href="#">
+          Подробнее...
+      </a>
+      <!-- https://www.fr.gov.by/about/names-named/519.html -->
+  </div> 
+  <div class="g6 down shutter-section">
+      <div class="brush" data-autor="#Юрий Пастушков." data-date="#Сентябрь, 2021 г." data-place="#ул. Головачёва 2">
+          <img src="img/brush.svg" class="brush_img">
+      </div>
+      <h2>Павел Головачёв</h2>
+      <h3>
+          Павел Яковлевич Головачёв - советский лётчик-ас, участник Великой Отечественной войны, дважды Герой Советского Союза
+      </h3>
+      <a class="hr6" href="#">
+          Подробнее...
+      </a>
+  </div>
   </div>
   <div id="scroll-main">
   <div id="carouselMain" class="carousel slide pointer-event" data-bs-touch="true">
@@ -1165,5 +1238,7 @@
   let x = new bootstrap.Carousel('#carouselMain');
   document.querySelectorAll(".s").forEach(el => el.removeAttribute("href"));
 </script>
+<script src="js/modes.js"></script>
+<script src="js/heros_shutter.js"></script>
 </body>
 </html>

@@ -1,20 +1,35 @@
 "use strict";
+function shutter_mode () {
+    document.querySelector("#scroll-main").style.display="none";
+    document.querySelector("#shutter-main").style.display="flex";
+    localStorage.setItem('MODE', "shutter");
+}
+function scrolling_mode () {
+    document.querySelector("#shutter-main").style.display="none";
+    document.querySelector("#scroll-main").style.display="block";
+    localStorage.setItem('MODE', "scroll");
+}
 let startMode=localStorage.getItem('MODE');
+console.log(startMode);
 let Mode;
-if(!startMode) 
-    Mode="shutter"
-else Mode=startMode;
-
-document.querySelector("#shutter-main").onclick=()=> {
-    if(document.querySelector("#shutter").style.display==="none") {
-        document.querySelector("#scrolling").style.display="none";
-        document.querySelector("#shutter").style.display="block";
-        localStorage.setItem('MODE', Mode);
+if(!startMode) {
+    shutter_mode();
+}
+else {
+    if(startMode==="scroll") {
+        scrolling_mode();
+    }
+    else shutter_mode();
+};
+document.querySelector("#shutter").onclick=()=> {
+    console.log("lol1");
+    if(document.querySelector("#shutter-main").style.display==="none") {
+     shutter_mode();
     }
 }
-document.querySelector("#scroll-main").onclick=()=> {
-    if(document.querySelector("#scrolling").style.display==="none") {
-        document.querySelector("#shutter").style.display="none";
-        document.querySelector("#scrolling").style.display="block";
+document.querySelector("#scrolling").onclick=()=> {
+    console.log("lol2");
+    if(document.querySelector("#scroll-main").style.display==="none") {
+        scrolling_mode();
     }
 }

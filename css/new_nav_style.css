@@ -98,7 +98,8 @@ section a {
     filter: opacity(0);
 }
 main .carousel .carousel-indicators {
-    margin-bottom: 7.2em;
+    /* margin-bottom: 7.2em; */
+    margin-bottom: 2.2em;
 }
 .brush {
     display: flex;
