@@ -702,18 +702,6 @@ h3{
 .g6 {
     background-image: url(../img/GOLOVACHEV2.jpeg);
 }
-.up {
-    width: 40%;
-    transition: width 0.4s linear;
-    justify-content: center;
-    font-size: 30px;
-}
-.down {
-    width: 15%;
-    background-position: center center;
-    font-size: 15px;
-    cursor: pointer;
-}
 .up h2 {
     margin-top: 50%;
     padding: 0 20px;
