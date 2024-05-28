@@ -41,29 +41,50 @@
     font-size: 15px;
     cursor: pointer;
 } 
-.image.hr1{
+.g1, .g2, .g3, .g4, .g5 {
+    border-right: solid 2px var(--main-color3);
+}
+.g1 {
+    background-image: url(../img/ILYA-KOZHAR3.png);;
+}
+.g2 {
+    background-image: url(../img/BORODIN2.png);
+}
+.g3 {
+    background-image: url(../img/BARIKIN2.jpeg);
+}
+.g4 {
+    background-image: url(../img/ROKOSS2.jpeg);
+}
+.g5 {
+    background-image: url(../img/MAZUROV2.jpg);
+}
+.g6 {
+    background-image: url(../img/GOLOVACHEV2.jpeg);
+}
+.image.hr0{
     background-image: url('../img/ILYA-KOZHAR3.png');
     background-position: 47% center;
 
 }
-.image.hr2{
+.image.hr1{
     background-image: url('../img/BORODIN2.png');
     background-position: 53% center;
 }
-.image.hr3{
+.image.hr2{
     background-image: url('../img/BARIKIN2.jpeg');
 
 }
-.image.hr4{
+.image.hr3{
     background-image: url('../img/ROKOSS2.jpeg');
     background-position: 54% center;
 
 }
-.image.hr5{
+.image.hr4{
     background-image: url('../img/MAZUROV2.jpg');
 
 }
-.image.hr6{
+.image.hr5{
     background-image: url('../img/GOLOVACHEV2.jpeg');
 
 }

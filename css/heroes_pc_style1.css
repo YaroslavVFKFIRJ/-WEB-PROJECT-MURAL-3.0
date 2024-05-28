@@ -5,6 +5,12 @@
     .block_header h1 {
         font-size: 8vw;
     }
+    #shutter-main {
+        display: none;
+    }
+    #scroll-main {
+        display: block;
+    }
     .up{
         width: 100%;
         height: 60%;
@@ -26,7 +32,7 @@
         border-radius: 5px 5px 0 0;
         transform: rotate(0deg);
     }
-    .up f1 {}
+    .up .f1 {}
     .image.hr1,
     .image.hr2,
     .image.hr3,

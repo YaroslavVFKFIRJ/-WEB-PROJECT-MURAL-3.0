@@ -8,10 +8,10 @@ arrname[0] = document.querySelector('.kozhar');
 arrname[1] = document.querySelector('.shabun');
 arrname[2] = document.querySelector('.mazurov');
 arrname[3] = document.querySelector('.skarina');
-arrhref[0] = document.querySelectorAll('.hr1');
-arrhref[1] = document.querySelectorAll('.hr2');
-arrhref[2] = document.querySelectorAll('.hr3');
-arrhref[3] = document.querySelectorAll('.hr4');
+arrhref[0] = document.querySelectorAll('.hr0');
+arrhref[1] = document.querySelectorAll('.hr1');
+arrhref[2] = document.querySelectorAll('.hr2');
+arrhref[3] = document.querySelectorAll('.hr3');
 arrhref.forEach(el =>
     el.forEach(element=>{
         element.onclick = () => {

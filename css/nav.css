@@ -539,7 +539,7 @@ h3{
     border-radius: 0 0 20px 20px;
     padding: 10px;
     margin-bottom: 5px;
-    font-size: 1vw;
+    font-size: 1.18vw;
     font-weight: 300;
 }
 .down h3 {
@@ -681,41 +681,19 @@ h3{
     background-repeat: no-repeat;
     background-position: center;
 }
-.g1, .g2, .g3, .g4, .g5 {
-    border-right: solid 2px var(--main-color3);
-}
-.g1 {
-    background-image: url(../img/ILYA-KOZHAR3.png);;
-}
-.g2 {
-    background-image: url(../img/BORODIN2.png);
-}
-.g3 {
-    background-image: url(../img/BARIKIN2.jpeg);
-}
-.g4 {
-    background-image: url(../img/ROKOSS2.jpeg);
-}
-.g5 {
-    background-image: url(../img/MAZUROV2.jpg);
-}
-.g6 {
-    background-image: url(../img/GOLOVACHEV2.jpeg);
-}
 .up h2 {
+    text-align: center;
     margin-top: 50%;
     padding: 0 20px;
 }
 .down h2 {
     text-align: right;
-    width: 200%;
     padding: 10px 10px 10px 300px;
     border-radius: 5px 5px 0 0;
     transform: rotate(-90deg);
 }   
 #shutter-main h2 {
     font-family: 'Ysabeau SC', sans-serif;
-    text-align: center;
     background-color: var(--main-color5);
     color: var(--main-color3);
     font-size: 2.5vw;

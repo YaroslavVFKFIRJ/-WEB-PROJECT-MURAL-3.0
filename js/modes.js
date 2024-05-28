@@ -9,18 +9,24 @@ function scrolling_mode () {
     document.querySelector("#scroll-main").style.display="block";
     localStorage.setItem('MODE', "scroll");
 }
-let startMode=localStorage.getItem('MODE');
-console.log(startMode);
-let Mode;
-if(!startMode) {
-    shutter_mode();
+if($("html").width()<=700){
+    document.querySelector("#scroll-main").style.display="block";
+    document.querySelector("#shutter-main").style.display="none";
 }
 else {
-    if(startMode==="scroll") {
-        scrolling_mode();
-    }
+    let startMode=localStorage.getItem('MODE');
+    console.log(startMode);
+    let Mode;
+    if(!startMode) {
+    shutter_mode();
+}
+    else {
+        if(startMode==="scroll") {
+            scrolling_mode();
+        }
     else shutter_mode();
 };
+}   
 document.querySelector("#shutter").onclick=()=> {
     console.log("lol1");
     if(document.querySelector("#shutter-main").style.display==="none") {

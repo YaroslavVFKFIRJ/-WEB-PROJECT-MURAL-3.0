@@ -10,12 +10,12 @@ arrname[2] = document.querySelector('.barikyn');
 arrname[3] = document.querySelector('.rokoss');
 arrname[4] = document.querySelector('.mazurov');
 arrname[5] = document.querySelector('.golov');
-arrhref[0] = document.querySelectorAll('.hr1');
-arrhref[1] = document.querySelectorAll('.hr2');
-arrhref[2] = document.querySelectorAll('.hr3');
-arrhref[3] = document.querySelectorAll('.hr4');
-arrhref[4] = document.querySelectorAll('.hr5');
-arrhref[5] = document.querySelectorAll('.hr6');
+arrhref[0] = document.querySelectorAll('.hr0');
+arrhref[1] = document.querySelectorAll('.hr1');
+arrhref[2] = document.querySelectorAll('.hr2');
+arrhref[3] = document.querySelectorAll('.hr3');
+arrhref[4] = document.querySelectorAll('.hr4');
+arrhref[5] = document.querySelectorAll('.hr5');
 arrhref.forEach(el=>
     el.forEach(element=>{
     element.onclick = () => {
@@ -33,7 +33,8 @@ arrhref.forEach(el=>
         document.querySelector(".main-next").classList.remove('vis');
         document.querySelector(".main-indicators").classList.toggle('vis');
         image.classList.remove(element.classList);
-        arrname[element.className.substring(2)].classList.remove('vis')
+        arrname[element.className.substring(2)].classList.remove('vis');
+        console.log(element.className.substring(2));
 }
 }
 }));

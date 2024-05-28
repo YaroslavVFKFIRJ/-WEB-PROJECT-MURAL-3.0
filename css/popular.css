@@ -1,6 +1,6 @@
 .up {
     width: 40%;
-    transition: width 0.4s linear;
+    transition: width 0.2s linear;
     justify-content: center;
     font-size: 30px;
 }
@@ -9,28 +9,37 @@
     background-position: center center;
     font-size: 15px;
     cursor: pointer;
+    transition: width 0.2s linear;
 } 
-.image.hr1{
+.g1, .g2, .g3 {
+    border-right: solid 2px var(--main-color3);
+}
+.g1{
+    background-image: url('../img/ILYA-KOZHAR3.png');
+}
+.g2{
+    background-image: url('../img/SHABUNEVSKI3.jpg');
+}
+.g3{
+    background-image: url('../img/MAZUROV2.jpg');
+}
+.g4{
+    background-image: url('../img/SKARINA3.jpg');
+}
+.image.hr0{
     background-image: url('../img/ILYA-KOZHAR3.png');
     background-color: aqua;
 }
-.image.hr2{
+.image.hr1{
     background-color: blue;
     background-image: url('../img/SHABUNEVSKI3.jpg');
 }
-.image.hr3{
+.image.hr2{
     background-image: url('../img/MAZUROV2.jpg');
     background-color: red;
 }
-.image.hr4{
+.image.hr3{
     background-image: url('../img/SKARINA3.jpg');
     background-color: red;
 }
-.image.hr5{
-    background-image: url('../img/MAZUROV2.jpg');
-    background-color: red;
-}
-.image.hr6{
-    background-image: url('../img/GOLOVACHEV2.jpeg');
-    background-color: red;
-}
+
