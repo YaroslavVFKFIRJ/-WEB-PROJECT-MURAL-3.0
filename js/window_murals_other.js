@@ -8,11 +8,13 @@ arrname[0] = document.querySelector('.life_bag');
 arrname[1] = document.querySelector('.good_morning');
 arrname[2] = document.querySelector('.we');
 arrname[3] = document.querySelector('.fireman');
-arrhref[0] = document.querySelector('.hr1');
-arrhref[1] = document.querySelector('.hr2');
-arrhref[2] = document.querySelector('.hr3');
-arrhref[3] = document.querySelector('.hr4');
-arrhref.forEach(el =>
+arrhref[0] = document.querySelector('.hr0');
+arrhref[1] = document.querySelector('.hr1');
+arrhref[2] = document.querySelector('.hr2');
+arrhref[3] = document.querySelector('.hr3');
+console.log(arrhref);
+console.log(arrhref[0]);
+arrhref.forEach(el =>{
     el.forEach(element=>{
         element.onclick = () => {
             mwind.classList.toggle('vis');
@@ -32,4 +34,5 @@ arrhref.forEach(el =>
             arrname[element.className.substring(2)].classList.remove('vis')
     }
     }
-    }));
+
+    })});
