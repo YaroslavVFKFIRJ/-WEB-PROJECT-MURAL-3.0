@@ -377,6 +377,7 @@ header{
     color: var(--main-color2);
     font-family: 'Rubik Vinyl', cursive;
     font-weight: 700;
+	line-height: 0.9;
 }
 main{
     width: 88%;
