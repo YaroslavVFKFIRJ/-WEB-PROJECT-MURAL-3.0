@@ -3,4 +3,7 @@
         width: 20px;
         height: 20px;
     }
+    .hr0 {
+        display: none;
+    }
 }
