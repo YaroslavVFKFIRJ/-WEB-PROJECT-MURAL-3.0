@@ -14,18 +14,7 @@ if($("html").width()<=700){
     document.querySelector("#shutter-main").style.display="none";
 }
 else {
-    let startMode=localStorage.getItem('MODE');
-    console.log(startMode);
-    let Mode;
-    if(!startMode) {
-    shutter_mode();
-}
-    else {
-        if(startMode==="scroll") {
-            scrolling_mode();
-        }
-    else shutter_mode();
-};
+   shutter_mode();
 }   
 document.querySelector("#shutter").onclick=()=> {
     console.log("lol1");
